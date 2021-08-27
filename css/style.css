@@ -1,0 +1,66 @@
+/* Студия */
+body{
+    background-color:#FFFFFF;
+    color:#212121;
+    font-family: Roboto;
+}
+/* Удаляет маркер у списков */
+.marker{
+    list-style: none; 
+}
+/* } Удаляет подчеркивание у ссылок */
+.link{
+    text-decoration: none;
+}
+/* header */
+.nav-header a {
+    color: #212121;
+}
+.nav-header a:hover,
+.nav-header a:focus {
+    color:#2196F3;
+}
+.nav-header-contacts a{
+    color: #757575;
+}
+.nav-header-contacts a:hover,
+.nav-header-contacts a:focus{
+    color:#2196F3;
+}
+/* sections */
+.section-title{
+    color: #212121;
+}
+/* features */
+.features .title-features {
+    color: #212121;
+}
+/* comandes */
+.comandes .comandes-title{
+    color: #212121;
+}
+/* button */
+.button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+/* Footer */
+.adres-footer a{
+    color: #757575;
+}
+.adres-footer a:hover,
+.adres-footer a:focus {
+    color:#2196F3;
+}
+/* Портфолио */
+.button-portfolio{
+    color: #212121;
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.button-portfolio  span:hover,
+.button-portfolio  span:focus{
+    background-color: #2196F3;
+}
+
+
