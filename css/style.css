@@ -2,17 +2,27 @@
 body{
     background-color:#FFFFFF;
     color:#212121;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 16px;
 }
 /* Удаляет маркер у списков */
 .marker{
     list-style: none; 
 }
 /* } Удаляет подчеркивание у ссылок */
-.link{
+.underline{
     text-decoration: none;
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 /* header */
+.header{
+
+}
 .nav-header a {
     color: #212121;
 }
@@ -27,24 +37,72 @@ body{
 .nav-header-contacts a:focus{
     color:#2196F3;
 }
-/* sections */
+/* Hero-section */
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    color: #FFFFFF;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hero{
+   
+}
 .section-title{
     color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 /* features */
 .features .title-features {
     color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.features-opportunities{
+    color: #757575;
+    /* font-weight: 400; */
+    font-size: 14px;
+    line-height: 1.70;
 }
 /* comandes */
+.section-comandes{
+    background-color: #F5F4FA;
+}
 .comandes .comandes-title{
     color: #212121;
+    font-weight: 500;
+    line-height: 1.18;
+    text-align: center;
+}
+.comandes-skils{
+    color: #757575;
+    line-height: 1.18;
+    text-align: center;
+    font-weight: 400;
 }
 /* button */
-.button{
+.hero-button{
     color: #FFFFFF;
     background-color: #2196F3;
+    font-weight: 700;
+    line-height: 1.80;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 /* Footer */
+.footer{
+
+}
 .adres-footer a{
     color: #757575;
 }
@@ -53,14 +111,46 @@ body{
     color:#2196F3;
 }
 /* Портфолио */
-.button-portfolio{
+.button-spisok{
     color: #212121;
     background-color: #F5F4FA;
     cursor: pointer;
 }
-.button-portfolio  span:hover,
-.button-portfolio  span:focus{
+.button-spisok button:hover,
+.button-spisok button:focus {
     background-color: #2196F3;
+    color: #FFFFFF;
 }
+.main-section{
+
+}
+.name-list-button{
+    font-weight: 500;
+    line-height: 1.60;
+    text-align: center;
+   
+}
+.comandes-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.main-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.main-text{
+    color: #757575;
+    line-height: 1.80;
+    font-weight: 400;
+}
+
+
+
+
 
 
