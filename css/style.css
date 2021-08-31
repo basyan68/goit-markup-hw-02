@@ -3,15 +3,18 @@
     --title-text-color: #FFFFFF;
     --acent-color: #2196F3;
     --subtitle-text-color: #757575;
+    --background-color: #2F303A;
+    --background-color-team: #F5F4FA;
 }
 body{
     background-color:#FFFFFF;
     color:#212121;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-size: 16px;
     font-weight: 400;
     line-height: 2;
+    margin: 0;
 }
 .link{
     text-decoration: none;
@@ -41,22 +44,27 @@ body{
 .nav-header .link {
     color: var(--primary-text-color);
 }
+.nav-header .active{
+    color: var(--acent-color);
+}    
+    
 .nav-header .link:hover,
-.nav-header .link:focus{
-    color:var(--acent-color);
+.nav-header .link:focus,
+.nav-header .link:active{
+    color: var(--acent-color);
 }
-
 .list .link:hover,
 .list .link:focus{
-    color:var(--acent-color);
+    color: var(--acent-color);
 }
+
 /* Main-section */
 .main-section{
 
 }
 /* Hero-section */
 .hero-section{
-
+background-color: var(--background-color);
 }
 .hero-title{
     font-weight: 900;
@@ -99,7 +107,7 @@ body{
 }
 /* work-section */
 .work-section{
-
+    background-color: ;
 }
 .work-title{
     font-weight: 700;
@@ -109,7 +117,7 @@ body{
 }
 /* work-team-section */
 .work-team-section{
-
+    background-color: var(--background-color-team);
 }
 .work-team-title{
     font-weight: 700;
@@ -129,7 +137,7 @@ body{
 }
 /* fotter-section */
 .footer-section{
-
+background-color: var(--background-color);
 }
 
     /* Portfolio */
@@ -146,11 +154,15 @@ body{
     line-height: 1.60;    
     text-align: center;
     cursor: pointer;
-    background: #F5F4FA;
+    background: var(-background-color-team);
     border-radius: 4px;
 }
+.hero-section-portfolio .active-button{
+    background-color: var(--acent-color);
+}
 .hero-section-portfolio .button-spisok:hover,
-.hero-section-portfolio .button-spisok:focus{
+.hero-section-portfolio .button-spisok:focus,
+.hero-section-portfolio .button-spisok:active{
     background-color: var(--acent-color);
     color: var(--title-text-color);
 }
