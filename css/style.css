@@ -5,16 +5,18 @@
     --subtitle-text-color: #757575;
     --background-color: #2F303A;
     --background-color-team: #F5F4FA;
+    --contacts-acent-footer: rgba(255, 255, 255, 0.6);
 }
 body{
     background-color:#FFFFFF;
     color:#212121;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Raleway, sans-serif;
     letter-spacing: 0.03em;
     font-size: 16px;
     font-weight: 400;
     line-height: 2;
     margin: 0;
+    font-style: normal;
 }
 .link{
     text-decoration: none;
@@ -90,6 +92,10 @@ background-color: var(--background-color);
     border-radius: 4px;
     cursor: pointer;
 }
+.hero-section .button-hero:hover,
+.hero-section .button-hero:focus{
+    background-color: #188CE8;
+}
 /* advantage-преимущества-section*/
 .advantage-section{
 
@@ -139,7 +145,30 @@ background-color: var(--background-color);
 .footer-section{
 background-color: var(--background-color);
 }
-
+.web{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+    color: var(--acent-color);
+}
+.studio{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+    color: var(--title-text-color);
+}
+.footer-text{
+    color: var(--title-text-color);
+    font-style: normal;
+}
+.footer-contacts .link{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.70;
+    color: var(--contacts-acent-footer);
+}
     /* Portfolio */
 /* Main-section */
 .main-section-portfolio{
@@ -154,11 +183,12 @@ background-color: var(--background-color);
     line-height: 1.60;    
     text-align: center;
     cursor: pointer;
-    background: var(-background-color-team);
+    background-color: var(--background-color-team);
     border-radius: 4px;
 }
 .hero-section-portfolio .active-button{
     background-color: var(--acent-color);
+    color: var(--title-text-color);
 }
 .hero-section-portfolio .button-spisok:hover,
 .hero-section-portfolio .button-spisok:focus,
